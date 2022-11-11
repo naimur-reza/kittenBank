@@ -6,25 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login / Signup</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: linear-gradient(to left, #380036,#0CBABA);
+        }
+        .new{
+            width: 400px;
+        }
+        .batun{
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="container">Login Your Account</h1>
-    <div class="container">
+    <h1 class="container text-center mt-5 font-monospace new text-white">Login Your Account</h1>
+    <div class="container new">
         <form>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <label for="exampleInputPassword1" class="form-label text-white">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              <label class="form-check-label text-white" for="exampleCheck1">Read Privacy $ Policy</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-dark d-block m-auto batun">Login</button>
           </form>
     </div>
 </body>
