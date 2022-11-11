@@ -9,6 +9,7 @@
     <style>
         body{
             background-image: linear-gradient(to left, #380036,#0CBABA);
+
         }
         .new{
             width: 400px;
@@ -22,28 +23,41 @@
         .wid{
           width: 100%;
         }
+
+
+
     </style>
 </head>
 <body>
    
     <div class="container new">
-        <form class="shadow-lg p-4 radius mt-5">
-          <h1 class="container text-center font-monospace new text-white wid">Login Your Account</h1>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label text-white">Password</label>
-              <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-white" for="exampleCheck1">Read Privacy $ Policy</label>
-            </div>
-            <button type="submit" class="btn btn-dark d-block m-auto batun">Login</button>
-          </form>
+<div id="login-area">
+  <form class="shadow-lg p-4 radius mt-5">
+    <h1 class="container text-center font-monospace new text-white wid">Login Your Account</h1>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+        <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label text-white" for="exampleCheck1">Read Privacy $ Policy</label>
+      </div>
+      <input class="m-auto btn btn-dark batun d-block" type="button" id="login" value="Login" onClick="showTable()"/>
+    </form>
+</div>
     </div>
+    <script>
+      const logButton = document.getElementById('login').addEventListener('click' ,function(){
+        logButton = document.getElementById('login-area').style.display = 'none'
+
+      })
+      
+    </script>
+
 </body>
 </html>
