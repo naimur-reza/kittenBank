@@ -1,23 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-image: linear-gradient(to left, #5F0A87, #A4508B); */
+    background-image: 
 }
 
-.container{
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
+
+
+
+body{
+    background-image: linear-gradient(to left, #380036,#0CBABA);
+
+}
+.new{
+    width: 400px;
     margin: auto;
-    width: 60%;
+}
+.batun{
+    width: 100px;
+}
+.radius{
+  border-radius: 15px;
+}
+.wid{
+  width: 100%;
+  height: 160px;
+}
 
-}
-.item{
-    height: 140px;
-    width: 230px;
-    background-color: crimson;
-   
-    border-radius: 10px;
+.deposit,.balance,.withdraw{
+    margin: 5px;
+    color: white;
+    border-radius: 12px;
     text-align: center;
+    height: 180px;
+    padding: 15px;
 }
+
+.balance{
+    background-color: rgb(144, 0, 144);
+}
+.withdraw{
+background-color: rgb(32, 32, 113);
+}
+.deposit{
+   background-color: crimson;
+}
+
+.radius1{
+    border-radius: 15px;
+    margin: 0px 20px;
+  color: white;
+  padding: 10px;
+  }
