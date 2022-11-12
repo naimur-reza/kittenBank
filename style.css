@@ -46,8 +46,10 @@ background-color: rgb(32, 32, 113);
 }
 
 .radius1{
-    border-radius: 15px;
-    margin: 0px 20px;
-  color: white;
-  padding: 10px;
-  }
+border-radius: 15px;
+margin: 0px 20px;
+color: white;
+padding: 10px;
+}
+
+
